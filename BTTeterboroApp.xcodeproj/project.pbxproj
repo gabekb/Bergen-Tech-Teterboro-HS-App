@@ -1,0 +1,1134 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		842462C5EAAE4F760AC08E30 /* Pods_BTTeterboroApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAA5BCB425E0343094D5D5B /* Pods_BTTeterboroApp.framework */; };
+		901093A720607BC800186059 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901093A620607BC800186059 /* SignInVC.swift */; };
+		901093A920608B9300186059 /* impact.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 901093A820608B9200186059 /* impact.ttf */; };
+		901093AA20608B9300186059 /* impact.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 901093A820608B9200186059 /* impact.ttf */; };
+		901093AB20608B9300186059 /* impact.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 901093A820608B9200186059 /* impact.ttf */; };
+		901093AD20609C6A00186059 /* HomePageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901093AC20609C6A00186059 /* HomePageVC.swift */; };
+		901093AE20609C6A00186059 /* HomePageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901093AC20609C6A00186059 /* HomePageVC.swift */; };
+		901093AF20609C6A00186059 /* HomePageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901093AC20609C6A00186059 /* HomePageVC.swift */; };
+		9011AA65206310490058F188 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9011AA64206310480058F188 /* GoogleService-Info.plist */; };
+		9011AA66206310490058F188 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9011AA64206310480058F188 /* GoogleService-Info.plist */; };
+		9011AA67206310490058F188 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9011AA64206310480058F188 /* GoogleService-Info.plist */; };
+		9011AA692063D9540058F188 /* THSNewsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9011AA682063D9540058F188 /* THSNewsVC.swift */; };
+		9011AA6A2063D9540058F188 /* THSNewsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9011AA682063D9540058F188 /* THSNewsVC.swift */; };
+		9011AA6B2063D9540058F188 /* THSNewsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9011AA682063D9540058F188 /* THSNewsVC.swift */; };
+		902300C9206075F300740D98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902300C8206075F300740D98 /* AppDelegate.swift */; };
+		902300CE206075F300740D98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 902300CC206075F300740D98 /* Main.storyboard */; };
+		902300D1206075F300740D98 /* BTTeterboroApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 902300CF206075F300740D98 /* BTTeterboroApp.xcdatamodeld */; };
+		902300D3206075F300740D98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 902300D2206075F300740D98 /* Assets.xcassets */; };
+		902300D6206075F300740D98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 902300D4206075F300740D98 /* LaunchScreen.storyboard */; };
+		902300E1206075F300740D98 /* BTTeterboroAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902300E0206075F300740D98 /* BTTeterboroAppTests.swift */; };
+		902300EC206075F300740D98 /* BTTeterboroAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902300EB206075F300740D98 /* BTTeterboroAppUITests.swift */; };
+		90381A3B206FBE8500E93034 /* NeverClearView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90381A3A206FBE8500E93034 /* NeverClearView.swift */; };
+		90381A40206FC3F800E93034 /* ResourcesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90381A3F206FC3F800E93034 /* ResourcesVC.swift */; };
+		90381A4220711A6600E93034 /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90381A4120711A6600E93034 /* TopViewController.swift */; };
+		90381A5B207129F300E93034 /* OneSignal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90381A5A207129F300E93034 /* OneSignal.framework */; };
+		905A094C206C67500019ACC7 /* CalendarEventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905A094B206C67500019ACC7 /* CalendarEventCell.swift */; };
+		90914F6F2075D4290005BBAB /* NotificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90914F6E2075D4290005BBAB /* NotificationVC.swift */; };
+		90914F722075D4F30005BBAB /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90914F712075D4F30005BBAB /* NotificationCell.swift */; };
+		90B2CEF22066A645004BC9C7 /* DataToString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B2CEF12066A645004BC9C7 /* DataToString.swift */; };
+		90CB7DEC4CDA2D0B9BC8B2B7 /* Pods_BTTeterboroAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2481B752F999B863DFBDC198 /* Pods_BTTeterboroAppTests.framework */; };
+		90DCAC4A2066B1DA00C2BC09 /* PowerSchoolVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DCAC492066B1DA00C2BC09 /* PowerSchoolVC.swift */; };
+		90DCAC4C2066F4C300C2BC09 /* NavianceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DCAC4B2066F4C300C2BC09 /* NavianceVC.swift */; };
+		90DCAC4F206810A200C2BC09 /* SignInWaitVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DCAC4E206810A200C2BC09 /* SignInWaitVC.swift */; };
+		90DCAC582068190900C2BC09 /* FormsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DCAC572068190900C2BC09 /* FormsVC.swift */; };
+		90DCAC5B20681CF600C2BC09 /* FormsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DCAC5A20681CF600C2BC09 /* FormsCell.swift */; };
+		90DCAC5D206820DB00C2BC09 /* ExpandedFormsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DCAC5C206820DB00C2BC09 /* ExpandedFormsVC.swift */; };
+		90DCAC5F206833DB00C2BC09 /* AthleticsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DCAC5E206833DB00C2BC09 /* AthleticsVC.swift */; };
+		90DCAC6220687DAD00C2BC09 /* AthleticsFormViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DCAC6120687DAD00C2BC09 /* AthleticsFormViewer.swift */; };
+		90DCAC642068937100C2BC09 /* AboutBTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DCAC632068937100C2BC09 /* AboutBTVC.swift */; };
+		90DCAC672069DE1000C2BC09 /* OtherInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DCAC662069DE1000C2BC09 /* OtherInfoVC.swift */; };
+		90DCAC76206C5BA400C2BC09 /* CalendarView+DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DCAC6D206C5B9800C2BC09 /* CalendarView+DataSource.swift */; };
+		90DCAC77206C5BA400C2BC09 /* CalendarDayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DCAC6E206C5B9A00C2BC09 /* CalendarDayCell.swift */; };
+		90DCAC78206C5BA400C2BC09 /* CalendarHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DCAC6F206C5B9B00C2BC09 /* CalendarHeaderView.swift */; };
+		90DCAC79206C5BA400C2BC09 /* CalendarFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DCAC70206C5B9C00C2BC09 /* CalendarFlowLayout.swift */; };
+		90DCAC7A206C5BA400C2BC09 /* CalendarView+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DCAC71206C5B9E00C2BC09 /* CalendarView+Style.swift */; };
+		90DCAC7B206C5BA400C2BC09 /* CalendarView+Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DCAC72206C5B9F00C2BC09 /* CalendarView+Delegate.swift */; };
+		90DCAC7C206C5BA400C2BC09 /* CalendarView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DCAC73206C5BA100C2BC09 /* CalendarView+Extensions.swift */; };
+		90DCAC7D206C5BA400C2BC09 /* EventsLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DCAC74206C5BA200C2BC09 /* EventsLoader.swift */; };
+		90DCAC7E206C5BA400C2BC09 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DCAC75206C5BA400C2BC09 /* CalendarView.swift */; };
+		90E4407E20645B8700279400 /* HTML2StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E4407D20645B8700279400 /* HTML2StringExtensions.swift */; };
+		90E440802064618700279400 /* THSNewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E4407F2064618700279400 /* THSNewsCell.swift */; };
+		90E44082206464C500279400 /* DateConverterExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E44081206464C500279400 /* DateConverterExtension.swift */; };
+		90E440C72064817400279400 /* THSNewsExpandedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E440C62064817400279400 /* THSNewsExpandedVC.swift */; };
+		90F4198020660E22007AA524 /* SchoolCalendarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F4197F20660E22007AA524 /* SchoolCalendarVC.swift */; };
+		A3C273FC860E775CA77CA9DB /* Pods_BTTeterboroAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B54D027C0D92ED6762B60E5D /* Pods_BTTeterboroAppUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		902300DD206075F300740D98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 902300BD206075F200740D98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 902300C4206075F300740D98;
+			remoteInfo = BTTeterboroApp;
+		};
+		902300E8206075F300740D98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 902300BD206075F200740D98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 902300C4206075F300740D98;
+			remoteInfo = BTTeterboroApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14FD34BFDDCA4D79BEC48140 /* Pods-BTTeterboroApp-OneSignalNotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTTeterboroApp-OneSignalNotificationServiceExtension.release.xcconfig"; path = "Pods/Target Support Files/Pods-BTTeterboroApp-OneSignalNotificationServiceExtension/Pods-BTTeterboroApp-OneSignalNotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
+		2481B752F999B863DFBDC198 /* Pods_BTTeterboroAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BTTeterboroAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26F8ED9E98A600FA31B3D529 /* Pods-BTTeterboroApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTTeterboroApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BTTeterboroApp/Pods-BTTeterboroApp.debug.xcconfig"; sourceTree = "<group>"; };
+		28252BFAF752274F661D193E /* Pods-BTTeterboroAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTTeterboroAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BTTeterboroAppTests/Pods-BTTeterboroAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		3DAA5BCB425E0343094D5D5B /* Pods_BTTeterboroApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BTTeterboroApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		707CFC194B4DCA54F38CE5F2 /* Pods-BTTeterboroAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTTeterboroAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BTTeterboroAppUITests/Pods-BTTeterboroAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		901093A620607BC800186059 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
+		901093A820608B9200186059 /* impact.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = impact.ttf; sourceTree = "<group>"; };
+		901093AC20609C6A00186059 /* HomePageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageVC.swift; sourceTree = "<group>"; };
+		9011AA64206310480058F188 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9011AA682063D9540058F188 /* THSNewsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = THSNewsVC.swift; sourceTree = "<group>"; };
+		902300C5206075F300740D98 /* BTTeterboroApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BTTeterboroApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		902300C8206075F300740D98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		902300CD206075F300740D98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		902300D0206075F300740D98 /* BTTeterboroApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BTTeterboroApp.xcdatamodel; sourceTree = "<group>"; };
+		902300D2206075F300740D98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		902300D5206075F300740D98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		902300D7206075F300740D98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		902300DC206075F300740D98 /* BTTeterboroAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BTTeterboroAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		902300E0206075F300740D98 /* BTTeterboroAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTTeterboroAppTests.swift; sourceTree = "<group>"; };
+		902300E2206075F300740D98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		902300E7206075F300740D98 /* BTTeterboroAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BTTeterboroAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		902300EB206075F300740D98 /* BTTeterboroAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTTeterboroAppUITests.swift; sourceTree = "<group>"; };
+		902300ED206075F300740D98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90381A3A206FBE8500E93034 /* NeverClearView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeverClearView.swift; sourceTree = "<group>"; };
+		90381A3F206FC3F800E93034 /* ResourcesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesVC.swift; sourceTree = "<group>"; };
+		90381A4120711A6600E93034 /* TopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
+		90381A5A207129F300E93034 /* OneSignal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OneSignal.framework; sourceTree = "<group>"; };
+		905A094B206C67500019ACC7 /* CalendarEventCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarEventCell.swift; sourceTree = "<group>"; };
+		90914F6E2075D4290005BBAB /* NotificationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationVC.swift; sourceTree = "<group>"; };
+		90914F712075D4F30005BBAB /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
+		90B2CEF12066A645004BC9C7 /* DataToString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataToString.swift; sourceTree = "<group>"; };
+		90DCAC492066B1DA00C2BC09 /* PowerSchoolVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerSchoolVC.swift; sourceTree = "<group>"; };
+		90DCAC4B2066F4C300C2BC09 /* NavianceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavianceVC.swift; sourceTree = "<group>"; };
+		90DCAC4D20680E1E00C2BC09 /* BTTeterboroApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BTTeterboroApp.entitlements; sourceTree = "<group>"; };
+		90DCAC4E206810A200C2BC09 /* SignInWaitVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWaitVC.swift; sourceTree = "<group>"; };
+		90DCAC572068190900C2BC09 /* FormsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormsVC.swift; sourceTree = "<group>"; };
+		90DCAC5A20681CF600C2BC09 /* FormsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormsCell.swift; sourceTree = "<group>"; };
+		90DCAC5C206820DB00C2BC09 /* ExpandedFormsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandedFormsVC.swift; sourceTree = "<group>"; };
+		90DCAC5E206833DB00C2BC09 /* AthleticsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AthleticsVC.swift; sourceTree = "<group>"; };
+		90DCAC6120687DAD00C2BC09 /* AthleticsFormViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AthleticsFormViewer.swift; sourceTree = "<group>"; };
+		90DCAC632068937100C2BC09 /* AboutBTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutBTVC.swift; sourceTree = "<group>"; };
+		90DCAC662069DE1000C2BC09 /* OtherInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherInfoVC.swift; sourceTree = "<group>"; };
+		90DCAC6D206C5B9800C2BC09 /* CalendarView+DataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CalendarView+DataSource.swift"; sourceTree = "<group>"; };
+		90DCAC6E206C5B9A00C2BC09 /* CalendarDayCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarDayCell.swift; sourceTree = "<group>"; };
+		90DCAC6F206C5B9B00C2BC09 /* CalendarHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarHeaderView.swift; sourceTree = "<group>"; };
+		90DCAC70206C5B9C00C2BC09 /* CalendarFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarFlowLayout.swift; sourceTree = "<group>"; };
+		90DCAC71206C5B9E00C2BC09 /* CalendarView+Style.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CalendarView+Style.swift"; sourceTree = "<group>"; };
+		90DCAC72206C5B9F00C2BC09 /* CalendarView+Delegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CalendarView+Delegate.swift"; sourceTree = "<group>"; };
+		90DCAC73206C5BA100C2BC09 /* CalendarView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CalendarView+Extensions.swift"; sourceTree = "<group>"; };
+		90DCAC74206C5BA200C2BC09 /* EventsLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsLoader.swift; sourceTree = "<group>"; };
+		90DCAC75206C5BA400C2BC09 /* CalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		90E4407D20645B8700279400 /* HTML2StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTML2StringExtensions.swift; sourceTree = "<group>"; };
+		90E4407F2064618700279400 /* THSNewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = THSNewsCell.swift; sourceTree = "<group>"; };
+		90E44081206464C500279400 /* DateConverterExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateConverterExtension.swift; sourceTree = "<group>"; };
+		90E440C62064817400279400 /* THSNewsExpandedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = THSNewsExpandedVC.swift; sourceTree = "<group>"; };
+		90F4197F20660E22007AA524 /* SchoolCalendarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SchoolCalendarVC.swift; path = ../OtherInfoVC/SchoolCalendarVC.swift; sourceTree = "<group>"; };
+		9503A0C588676F4FBDB61BBC /* Pods-BTTeterboroApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTTeterboroApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-BTTeterboroApp/Pods-BTTeterboroApp.release.xcconfig"; sourceTree = "<group>"; };
+		9C5DC76E0B795B6B4507DDB3 /* Pods-BTTeterboroAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTTeterboroAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BTTeterboroAppTests/Pods-BTTeterboroAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		ACCE9E80B7CFD56E02591F89 /* Pods-BTTeterboroApp-OneSignalNotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTTeterboroApp-OneSignalNotificationServiceExtension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BTTeterboroApp-OneSignalNotificationServiceExtension/Pods-BTTeterboroApp-OneSignalNotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		B54D027C0D92ED6762B60E5D /* Pods_BTTeterboroAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BTTeterboroAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E64A7EAAAC6A662494E49708 /* Pods_BTTeterboroApp_OneSignalNotificationServiceExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BTTeterboroApp_OneSignalNotificationServiceExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE37FF966A708BB047B35BB4 /* Pods-BTTeterboroAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTTeterboroAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BTTeterboroAppUITests/Pods-BTTeterboroAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		902300C2206075F300740D98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842462C5EAAE4F760AC08E30 /* Pods_BTTeterboroApp.framework in Frameworks */,
+				90381A5B207129F300E93034 /* OneSignal.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		902300D9206075F300740D98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90CB7DEC4CDA2D0B9BC8B2B7 /* Pods_BTTeterboroAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		902300E4206075F300740D98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3C273FC860E775CA77CA9DB /* Pods_BTTeterboroAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09D7A7F59E80A573F7E9EBCF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26F8ED9E98A600FA31B3D529 /* Pods-BTTeterboroApp.debug.xcconfig */,
+				9503A0C588676F4FBDB61BBC /* Pods-BTTeterboroApp.release.xcconfig */,
+				9C5DC76E0B795B6B4507DDB3 /* Pods-BTTeterboroAppTests.debug.xcconfig */,
+				28252BFAF752274F661D193E /* Pods-BTTeterboroAppTests.release.xcconfig */,
+				707CFC194B4DCA54F38CE5F2 /* Pods-BTTeterboroAppUITests.debug.xcconfig */,
+				FE37FF966A708BB047B35BB4 /* Pods-BTTeterboroAppUITests.release.xcconfig */,
+				ACCE9E80B7CFD56E02591F89 /* Pods-BTTeterboroApp-OneSignalNotificationServiceExtension.debug.xcconfig */,
+				14FD34BFDDCA4D79BEC48140 /* Pods-BTTeterboroApp-OneSignalNotificationServiceExtension.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5D76CCC4C6926FF6145B231E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				90381A5A207129F300E93034 /* OneSignal.framework */,
+				3DAA5BCB425E0343094D5D5B /* Pods_BTTeterboroApp.framework */,
+				2481B752F999B863DFBDC198 /* Pods_BTTeterboroAppTests.framework */,
+				B54D027C0D92ED6762B60E5D /* Pods_BTTeterboroAppUITests.framework */,
+				E64A7EAAAC6A662494E49708 /* Pods_BTTeterboroApp_OneSignalNotificationServiceExtension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		902300BC206075F200740D98 = {
+			isa = PBXGroup;
+			children = (
+				902300C7206075F300740D98 /* BTTeterboroApp */,
+				902300DF206075F300740D98 /* BTTeterboroAppTests */,
+				902300EA206075F300740D98 /* BTTeterboroAppUITests */,
+				902300C6206075F300740D98 /* Products */,
+				09D7A7F59E80A573F7E9EBCF /* Pods */,
+				5D76CCC4C6926FF6145B231E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		902300C6206075F300740D98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				902300C5206075F300740D98 /* BTTeterboroApp.app */,
+				902300DC206075F300740D98 /* BTTeterboroAppTests.xctest */,
+				902300E7206075F300740D98 /* BTTeterboroAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		902300C7206075F300740D98 /* BTTeterboroApp */ = {
+			isa = PBXGroup;
+			children = (
+				90DCAC4D20680E1E00C2BC09 /* BTTeterboroApp.entitlements */,
+				902300C8206075F300740D98 /* AppDelegate.swift */,
+				902300CC206075F300740D98 /* Main.storyboard */,
+				90DCAC682069DE1900C2BC09 /* OtherInfoVC */,
+				90DCAC50206817A300C2BC09 /* SignInHandling */,
+				90DCAC532068180F00C2BC09 /* HomePageVC */,
+				90DCAC52206817E500C2BC09 /* NewsVC's */,
+				90DCAC552068183500C2BC09 /* SchoolCalendarVC */,
+				90DCAC7F206C5BC100C2BC09 /* CalendarView */,
+				90DCAC60206833E700C2BC09 /* AthleticsVC */,
+				90DCAC592068191000C2BC09 /* FormsVC */,
+				90381A3E206FC31400E93034 /* ResourcesVC */,
+				90DCAC652068937700C2BC09 /* AboutBTVC */,
+				90DCAC542068182400C2BC09 /* PowerSchoolVC */,
+				90DCAC562068184700C2BC09 /* NavianceVC */,
+				90914F702075D42E0005BBAB /* NotificationVC */,
+				90DCAC51206817C000C2BC09 /* Extensions */,
+				901093A820608B9200186059 /* impact.ttf */,
+				902300D2206075F300740D98 /* Assets.xcassets */,
+				9011AA64206310480058F188 /* GoogleService-Info.plist */,
+				902300D4206075F300740D98 /* LaunchScreen.storyboard */,
+				902300D7206075F300740D98 /* Info.plist */,
+				902300CF206075F300740D98 /* BTTeterboroApp.xcdatamodeld */,
+			);
+			path = BTTeterboroApp;
+			sourceTree = "<group>";
+		};
+		902300DF206075F300740D98 /* BTTeterboroAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				902300E0206075F300740D98 /* BTTeterboroAppTests.swift */,
+				902300E2206075F300740D98 /* Info.plist */,
+			);
+			path = BTTeterboroAppTests;
+			sourceTree = "<group>";
+		};
+		902300EA206075F300740D98 /* BTTeterboroAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				902300EB206075F300740D98 /* BTTeterboroAppUITests.swift */,
+				902300ED206075F300740D98 /* Info.plist */,
+			);
+			path = BTTeterboroAppUITests;
+			sourceTree = "<group>";
+		};
+		90381A3E206FC31400E93034 /* ResourcesVC */ = {
+			isa = PBXGroup;
+			children = (
+				90381A3F206FC3F800E93034 /* ResourcesVC.swift */,
+			);
+			path = ResourcesVC;
+			sourceTree = "<group>";
+		};
+		90914F702075D42E0005BBAB /* NotificationVC */ = {
+			isa = PBXGroup;
+			children = (
+				90914F6E2075D4290005BBAB /* NotificationVC.swift */,
+				90914F712075D4F30005BBAB /* NotificationCell.swift */,
+			);
+			path = NotificationVC;
+			sourceTree = "<group>";
+		};
+		90DCAC50206817A300C2BC09 /* SignInHandling */ = {
+			isa = PBXGroup;
+			children = (
+				90DCAC4E206810A200C2BC09 /* SignInWaitVC.swift */,
+				901093A620607BC800186059 /* SignInVC.swift */,
+			);
+			path = SignInHandling;
+			sourceTree = "<group>";
+		};
+		90DCAC51206817C000C2BC09 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				90381A4120711A6600E93034 /* TopViewController.swift */,
+				90E44081206464C500279400 /* DateConverterExtension.swift */,
+				90E4407D20645B8700279400 /* HTML2StringExtensions.swift */,
+				90B2CEF12066A645004BC9C7 /* DataToString.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		90DCAC52206817E500C2BC09 /* NewsVC's */ = {
+			isa = PBXGroup;
+			children = (
+				9011AA682063D9540058F188 /* THSNewsVC.swift */,
+				90E440C62064817400279400 /* THSNewsExpandedVC.swift */,
+				90E4407F2064618700279400 /* THSNewsCell.swift */,
+			);
+			path = "NewsVC's";
+			sourceTree = "<group>";
+		};
+		90DCAC532068180F00C2BC09 /* HomePageVC */ = {
+			isa = PBXGroup;
+			children = (
+				901093AC20609C6A00186059 /* HomePageVC.swift */,
+			);
+			path = HomePageVC;
+			sourceTree = "<group>";
+		};
+		90DCAC542068182400C2BC09 /* PowerSchoolVC */ = {
+			isa = PBXGroup;
+			children = (
+				90DCAC492066B1DA00C2BC09 /* PowerSchoolVC.swift */,
+			);
+			path = PowerSchoolVC;
+			sourceTree = "<group>";
+		};
+		90DCAC552068183500C2BC09 /* SchoolCalendarVC */ = {
+			isa = PBXGroup;
+			children = (
+				90F4197F20660E22007AA524 /* SchoolCalendarVC.swift */,
+				905A094B206C67500019ACC7 /* CalendarEventCell.swift */,
+				90381A3A206FBE8500E93034 /* NeverClearView.swift */,
+			);
+			path = SchoolCalendarVC;
+			sourceTree = "<group>";
+		};
+		90DCAC562068184700C2BC09 /* NavianceVC */ = {
+			isa = PBXGroup;
+			children = (
+				90DCAC4B2066F4C300C2BC09 /* NavianceVC.swift */,
+			);
+			path = NavianceVC;
+			sourceTree = "<group>";
+		};
+		90DCAC592068191000C2BC09 /* FormsVC */ = {
+			isa = PBXGroup;
+			children = (
+				90DCAC572068190900C2BC09 /* FormsVC.swift */,
+				90DCAC5C206820DB00C2BC09 /* ExpandedFormsVC.swift */,
+				90DCAC5A20681CF600C2BC09 /* FormsCell.swift */,
+			);
+			path = FormsVC;
+			sourceTree = "<group>";
+		};
+		90DCAC60206833E700C2BC09 /* AthleticsVC */ = {
+			isa = PBXGroup;
+			children = (
+				90DCAC5E206833DB00C2BC09 /* AthleticsVC.swift */,
+				90DCAC6120687DAD00C2BC09 /* AthleticsFormViewer.swift */,
+			);
+			path = AthleticsVC;
+			sourceTree = "<group>";
+		};
+		90DCAC652068937700C2BC09 /* AboutBTVC */ = {
+			isa = PBXGroup;
+			children = (
+				90DCAC632068937100C2BC09 /* AboutBTVC.swift */,
+			);
+			path = AboutBTVC;
+			sourceTree = "<group>";
+		};
+		90DCAC682069DE1900C2BC09 /* OtherInfoVC */ = {
+			isa = PBXGroup;
+			children = (
+				90DCAC662069DE1000C2BC09 /* OtherInfoVC.swift */,
+			);
+			path = OtherInfoVC;
+			sourceTree = "<group>";
+		};
+		90DCAC7F206C5BC100C2BC09 /* CalendarView */ = {
+			isa = PBXGroup;
+			children = (
+				90DCAC6E206C5B9A00C2BC09 /* CalendarDayCell.swift */,
+				90DCAC70206C5B9C00C2BC09 /* CalendarFlowLayout.swift */,
+				90DCAC6F206C5B9B00C2BC09 /* CalendarHeaderView.swift */,
+				90DCAC75206C5BA400C2BC09 /* CalendarView.swift */,
+				90DCAC6D206C5B9800C2BC09 /* CalendarView+DataSource.swift */,
+				90DCAC72206C5B9F00C2BC09 /* CalendarView+Delegate.swift */,
+				90DCAC73206C5BA100C2BC09 /* CalendarView+Extensions.swift */,
+				90DCAC71206C5B9E00C2BC09 /* CalendarView+Style.swift */,
+				90DCAC74206C5BA200C2BC09 /* EventsLoader.swift */,
+			);
+			name = CalendarView;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		902300C4206075F300740D98 /* BTTeterboroApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 902300F0206075F300740D98 /* Build configuration list for PBXNativeTarget "BTTeterboroApp" */;
+			buildPhases = (
+				4BAA85DAF85DD0E943705E49 /* [CP] Check Pods Manifest.lock */,
+				902300C1206075F300740D98 /* Sources */,
+				902300C2206075F300740D98 /* Frameworks */,
+				902300C3206075F300740D98 /* Resources */,
+				137D6E7F3406EDD606BB7762 /* [CP] Embed Pods Frameworks */,
+				A8220C7D39B62F38A78F8564 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BTTeterboroApp;
+			productName = BTTeterboroApp;
+			productReference = 902300C5206075F300740D98 /* BTTeterboroApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		902300DB206075F300740D98 /* BTTeterboroAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 902300F3206075F300740D98 /* Build configuration list for PBXNativeTarget "BTTeterboroAppTests" */;
+			buildPhases = (
+				D443F952438CA4CAE00574AF /* [CP] Check Pods Manifest.lock */,
+				902300D8206075F300740D98 /* Sources */,
+				902300D9206075F300740D98 /* Frameworks */,
+				902300DA206075F300740D98 /* Resources */,
+				61A825DE76DB9735B6D4CACB /* [CP] Embed Pods Frameworks */,
+				AD827763D312FD47AA05AA73 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				902300DE206075F300740D98 /* PBXTargetDependency */,
+			);
+			name = BTTeterboroAppTests;
+			productName = BTTeterboroAppTests;
+			productReference = 902300DC206075F300740D98 /* BTTeterboroAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		902300E6206075F300740D98 /* BTTeterboroAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 902300F6206075F300740D98 /* Build configuration list for PBXNativeTarget "BTTeterboroAppUITests" */;
+			buildPhases = (
+				C20B245DB2D7F895827B728A /* [CP] Check Pods Manifest.lock */,
+				902300E3206075F300740D98 /* Sources */,
+				902300E4206075F300740D98 /* Frameworks */,
+				902300E5206075F300740D98 /* Resources */,
+				1852617DEAB6B3FF8C61D0DB /* [CP] Embed Pods Frameworks */,
+				07800C22B5C60F8730B65619 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				902300E9206075F300740D98 /* PBXTargetDependency */,
+			);
+			name = BTTeterboroAppUITests;
+			productName = BTTeterboroAppUITests;
+			productReference = 902300E7206075F300740D98 /* BTTeterboroAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		902300BD206075F200740D98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Gabriel Baffo";
+				TargetAttributes = {
+					902300C4206075F300740D98 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					902300DB206075F300740D98 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 902300C4206075F300740D98;
+					};
+					902300E6206075F300740D98 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 902300C4206075F300740D98;
+					};
+				};
+			};
+			buildConfigurationList = 902300C0206075F200740D98 /* Build configuration list for PBXProject "BTTeterboroApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 902300BC206075F200740D98;
+			productRefGroup = 902300C6206075F300740D98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				902300C4206075F300740D98 /* BTTeterboroApp */,
+				902300DB206075F300740D98 /* BTTeterboroAppTests */,
+				902300E6206075F300740D98 /* BTTeterboroAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		902300C3206075F300740D98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				901093A920608B9300186059 /* impact.ttf in Resources */,
+				902300D6206075F300740D98 /* LaunchScreen.storyboard in Resources */,
+				902300D3206075F300740D98 /* Assets.xcassets in Resources */,
+				902300CE206075F300740D98 /* Main.storyboard in Resources */,
+				9011AA65206310490058F188 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		902300DA206075F300740D98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				901093AA20608B9300186059 /* impact.ttf in Resources */,
+				9011AA66206310490058F188 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		902300E5206075F300740D98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				901093AB20608B9300186059 /* impact.ttf in Resources */,
+				9011AA67206310490058F188 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07800C22B5C60F8730B65619 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BTTeterboroAppUITests/Pods-BTTeterboroAppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		137D6E7F3406EDD606BB7762 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BTTeterboroApp/Pods-BTTeterboroApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/DynamicBlurView/DynamicBlurView.framework",
+				"${BUILT_PRODUCTS_DIR}/FCAlertView/FCAlertView.framework",
+				"${BUILT_PRODUCTS_DIR}/GSImageViewerController/GSImageViewerController.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleAPIClientForREST/GoogleAPIClientForREST.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/KDCalendar/KDCalendar.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/PDFReader/PDFReader.framework",
+				"${BUILT_PRODUCTS_DIR}/ParallaxHeader/ParallaxHeader.framework",
+				"${BUILT_PRODUCTS_DIR}/PopupDialog/PopupDialog.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftSoup/SwiftSoup.framework",
+				"${BUILT_PRODUCTS_DIR}/Whisper/Whisper.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DynamicBlurView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FCAlertView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GSImageViewerController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleAPIClientForREST.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KDCalendar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PDFReader.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ParallaxHeader.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PopupDialog.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSoup.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Whisper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BTTeterboroApp/Pods-BTTeterboroApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1852617DEAB6B3FF8C61D0DB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BTTeterboroAppUITests/Pods-BTTeterboroAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4BAA85DAF85DD0E943705E49 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BTTeterboroApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61A825DE76DB9735B6D4CACB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BTTeterboroAppTests/Pods-BTTeterboroAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8220C7D39B62F38A78F8564 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BTTeterboroApp/Pods-BTTeterboroApp-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BTTeterboroApp/Pods-BTTeterboroApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD827763D312FD47AA05AA73 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BTTeterboroAppTests/Pods-BTTeterboroAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C20B245DB2D7F895827B728A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BTTeterboroAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D443F952438CA4CAE00574AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BTTeterboroAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		902300C1206075F300740D98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90E4407E20645B8700279400 /* HTML2StringExtensions.swift in Sources */,
+				90DCAC78206C5BA400C2BC09 /* CalendarHeaderView.swift in Sources */,
+				90DCAC5B20681CF600C2BC09 /* FormsCell.swift in Sources */,
+				9011AA692063D9540058F188 /* THSNewsVC.swift in Sources */,
+				90E44082206464C500279400 /* DateConverterExtension.swift in Sources */,
+				902300D1206075F300740D98 /* BTTeterboroApp.xcdatamodeld in Sources */,
+				90914F6F2075D4290005BBAB /* NotificationVC.swift in Sources */,
+				90DCAC672069DE1000C2BC09 /* OtherInfoVC.swift in Sources */,
+				90DCAC4A2066B1DA00C2BC09 /* PowerSchoolVC.swift in Sources */,
+				905A094C206C67500019ACC7 /* CalendarEventCell.swift in Sources */,
+				90DCAC7C206C5BA400C2BC09 /* CalendarView+Extensions.swift in Sources */,
+				90DCAC77206C5BA400C2BC09 /* CalendarDayCell.swift in Sources */,
+				90F4198020660E22007AA524 /* SchoolCalendarVC.swift in Sources */,
+				90381A4220711A6600E93034 /* TopViewController.swift in Sources */,
+				90DCAC4C2066F4C300C2BC09 /* NavianceVC.swift in Sources */,
+				90DCAC4F206810A200C2BC09 /* SignInWaitVC.swift in Sources */,
+				90E440802064618700279400 /* THSNewsCell.swift in Sources */,
+				901093A720607BC800186059 /* SignInVC.swift in Sources */,
+				90DCAC7B206C5BA400C2BC09 /* CalendarView+Delegate.swift in Sources */,
+				90381A3B206FBE8500E93034 /* NeverClearView.swift in Sources */,
+				901093AD20609C6A00186059 /* HomePageVC.swift in Sources */,
+				90DCAC6220687DAD00C2BC09 /* AthleticsFormViewer.swift in Sources */,
+				90DCAC582068190900C2BC09 /* FormsVC.swift in Sources */,
+				90E440C72064817400279400 /* THSNewsExpandedVC.swift in Sources */,
+				90DCAC7E206C5BA400C2BC09 /* CalendarView.swift in Sources */,
+				90DCAC7A206C5BA400C2BC09 /* CalendarView+Style.swift in Sources */,
+				90B2CEF22066A645004BC9C7 /* DataToString.swift in Sources */,
+				90DCAC76206C5BA400C2BC09 /* CalendarView+DataSource.swift in Sources */,
+				90914F722075D4F30005BBAB /* NotificationCell.swift in Sources */,
+				90DCAC642068937100C2BC09 /* AboutBTVC.swift in Sources */,
+				902300C9206075F300740D98 /* AppDelegate.swift in Sources */,
+				90DCAC5F206833DB00C2BC09 /* AthleticsVC.swift in Sources */,
+				90381A40206FC3F800E93034 /* ResourcesVC.swift in Sources */,
+				90DCAC7D206C5BA400C2BC09 /* EventsLoader.swift in Sources */,
+				90DCAC79206C5BA400C2BC09 /* CalendarFlowLayout.swift in Sources */,
+				90DCAC5D206820DB00C2BC09 /* ExpandedFormsVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		902300D8206075F300740D98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				901093AE20609C6A00186059 /* HomePageVC.swift in Sources */,
+				9011AA6A2063D9540058F188 /* THSNewsVC.swift in Sources */,
+				902300E1206075F300740D98 /* BTTeterboroAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		902300E3206075F300740D98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				901093AF20609C6A00186059 /* HomePageVC.swift in Sources */,
+				9011AA6B2063D9540058F188 /* THSNewsVC.swift in Sources */,
+				902300EC206075F300740D98 /* BTTeterboroAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		902300DE206075F300740D98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 902300C4206075F300740D98 /* BTTeterboroApp */;
+			targetProxy = 902300DD206075F300740D98 /* PBXContainerItemProxy */;
+		};
+		902300E9206075F300740D98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 902300C4206075F300740D98 /* BTTeterboroApp */;
+			targetProxy = 902300E8206075F300740D98 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		902300CC206075F300740D98 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				902300CD206075F300740D98 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		902300D4206075F300740D98 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				902300D5206075F300740D98 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		902300EE206075F300740D98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		902300EF206075F300740D98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		902300F1206075F300740D98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26F8ED9E98A600FA31B3D529 /* Pods-BTTeterboroApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BTTeterboroApp/BTTeterboroApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XGR4P4EPTG;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = BTTeterboroApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GB.BTTeterboroApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		902300F2206075F300740D98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9503A0C588676F4FBDB61BBC /* Pods-BTTeterboroApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BTTeterboroApp/BTTeterboroApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XGR4P4EPTG;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = BTTeterboroApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GB.BTTeterboroApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		902300F4206075F300740D98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C5DC76E0B795B6B4507DDB3 /* Pods-BTTeterboroAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XGR4P4EPTG;
+				INFOPLIST_FILE = BTTeterboroAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Gabriel-Baffo.BTTeterboroAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BTTeterboroApp.app/BTTeterboroApp";
+			};
+			name = Debug;
+		};
+		902300F5206075F300740D98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28252BFAF752274F661D193E /* Pods-BTTeterboroAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XGR4P4EPTG;
+				INFOPLIST_FILE = BTTeterboroAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Gabriel-Baffo.BTTeterboroAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BTTeterboroApp.app/BTTeterboroApp";
+			};
+			name = Release;
+		};
+		902300F7206075F300740D98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 707CFC194B4DCA54F38CE5F2 /* Pods-BTTeterboroAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XGR4P4EPTG;
+				INFOPLIST_FILE = BTTeterboroAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Gabriel-Baffo.BTTeterboroAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BTTeterboroApp;
+			};
+			name = Debug;
+		};
+		902300F8206075F300740D98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE37FF966A708BB047B35BB4 /* Pods-BTTeterboroAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XGR4P4EPTG;
+				INFOPLIST_FILE = BTTeterboroAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Gabriel-Baffo.BTTeterboroAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BTTeterboroApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		902300C0206075F200740D98 /* Build configuration list for PBXProject "BTTeterboroApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				902300EE206075F300740D98 /* Debug */,
+				902300EF206075F300740D98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		902300F0206075F300740D98 /* Build configuration list for PBXNativeTarget "BTTeterboroApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				902300F1206075F300740D98 /* Debug */,
+				902300F2206075F300740D98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		902300F3206075F300740D98 /* Build configuration list for PBXNativeTarget "BTTeterboroAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				902300F4206075F300740D98 /* Debug */,
+				902300F5206075F300740D98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		902300F6206075F300740D98 /* Build configuration list for PBXNativeTarget "BTTeterboroAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				902300F7206075F300740D98 /* Debug */,
+				902300F8206075F300740D98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		902300CF206075F300740D98 /* BTTeterboroApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				902300D0206075F300740D98 /* BTTeterboroApp.xcdatamodel */,
+			);
+			currentVersion = 902300D0206075F300740D98 /* BTTeterboroApp.xcdatamodel */;
+			path = BTTeterboroApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 902300BD206075F200740D98 /* Project object */;
+}

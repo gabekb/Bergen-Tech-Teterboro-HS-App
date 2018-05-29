@@ -1,0 +1,6 @@
+framework module Pods_BTTeterboroAppUITests {
+  umbrella header "Pods-BTTeterboroAppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
